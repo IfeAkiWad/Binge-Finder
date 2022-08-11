@@ -14,10 +14,10 @@ const Nav = () => {
           <h1>Tube Finder</h1>
         </Menu.Item>
         <Menu.Item position="right">
-          <filter handleFilter={props.handleFilter}/>
+          <Filter /*handleFilter={handleFilter}*/ />
         </Menu.Item>
         <Menu.Item position="right">
-          <search handleSearch={props.handleSearch} search={props.search}/>
+          <Search /*handleSearch={handleSearch} search={search}*/ />
         </Menu.Item>
       </Menu>
     </div>
