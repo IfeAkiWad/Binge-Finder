@@ -51,7 +51,7 @@ class SelectedShowContainer extends Component {
 
 }
 
-export SelectedShowContainer;
+export default SelectedShowContainer;
 
 
 Array.prototype.unique = function() {
