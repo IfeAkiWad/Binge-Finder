@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import {Grid} from 'semantic-ui-react';
+import TVShow from './TVShow'
 
 class TVShowList extends Component {
 
